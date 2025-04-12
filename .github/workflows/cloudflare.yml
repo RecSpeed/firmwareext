@@ -12,7 +12,7 @@ jobs:
       - name: Deploy-fce
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiToken: ${{ secrets.RFbp9MZmFN5dRLrSc-6dFvSO-9bOK_Km7zEaCAln }}
           workingDirectory: cloudflare
           secrets: |
             GTKK
